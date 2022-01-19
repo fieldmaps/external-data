@@ -1,0 +1,7 @@
+services:
+  external-data:
+    build: .
+    volumes:
+      - ./data:/usr/src/app/data
+      - ./inputs:/usr/src/app/inputs
+      - ./outputs:/usr/src/app/outputs
